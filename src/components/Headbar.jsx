@@ -80,20 +80,15 @@ function Headbar() {
     ]
 
     const userList = dummyUsers.map((user) => (
-        <div className={styles.topBar}>
-          <p>
-            <img
-              src={user.imageUrl}
-              alt="dp"
-            />
-          </p>
-          <h2>{user.name}</h2>
-        </div>
-      ));
+      <div key={user.id} className={styles.userItem}>
+        <img src={user.imageUrl} alt="dp" />
+        <h2>{user.name}</h2>
+      </div>
+    ));
 
   return (
     <div className={styles.container}>
-      <div>{userList}</div>
+      {userList}
     </div>
   )
 }
