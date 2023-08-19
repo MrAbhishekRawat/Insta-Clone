@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from "./Headbar.module.css"
+import FeedPage from './FeedPage';
 
 function Headbar() {
     const dummyUsers= [
@@ -88,7 +89,12 @@ function Headbar() {
 
   return (
     <div className={styles.container}>
+      <div className={styles.userList}>
       {userList}
+    </div>
+    <div className={styles.feeds}>
+        <FeedPage/>
+      </div>
     </div>
   )
 }

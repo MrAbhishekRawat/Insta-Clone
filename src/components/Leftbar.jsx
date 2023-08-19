@@ -6,7 +6,7 @@ export default function Leftbar() {
   return (
     <div className={styles.container}>
       <h1>Instagram</h1>
-      <nav>
+      <li>
       <Link to="/home">Home</Link>
       <Link to="/search">Search</Link>
       <Link to="/messages">Messages</Link>
@@ -15,7 +15,7 @@ export default function Leftbar() {
       <Link to="/explore">Explore</Link>
       <Link to="/profile">Profile</Link>
 
-      </nav>
+      </li>
       
     </div>
   );

@@ -1,13 +1,21 @@
 
-.container {
-  display: flex;
-  overflow-x: auto;
+.container{
+  margin-left: 0px;
+}
+
+.userList {
+ 
+  overflow-x: scroll;
 }
 
 .userItem {
   display: inline-flex;
   align-items: center;
   margin-right: 20px;
+}
+
+.userItem:hover{
+  cursor: pointer;
 }
 
 .userItem img {
@@ -20,4 +28,7 @@
 .userItem h2 {
   font-size: 16px;
   margin: 0;
+}
+.feeds{
+  display:flex;
 }
