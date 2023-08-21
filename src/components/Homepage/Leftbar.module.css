@@ -10,8 +10,8 @@
     position: fixed;
   }
   
-  h1 {
-    font-size: 24px;
+  img {
+    width: 60%;
     margin-bottom: 20px;
   }
   
@@ -33,4 +33,21 @@
     background-color: #726d6d;
     color: #ebe3e3;
   }
+
+.container button{
+  margin-top: 15px;
+  text-decoration: none;
+  color: #333;
+  font-size: 15px;
+  padding: 8px 10px;
+  transition: background-color 0.3s, color 0.3s;
+  border: none;
+  background: none;
+}
+
+.container button:hover{
+  background-color: #c42929;
+  color: #ebe3e3;
+  cursor: pointer;
+}
   

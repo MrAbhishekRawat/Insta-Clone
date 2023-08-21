@@ -1,6 +1,7 @@
 
 .container {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     padding: 20px;
     border: 1px solid #ccc;
@@ -8,9 +9,9 @@
   
   .leftbar {
     width: 10px;
-    flex: 1;
+    flex: 0.2;
   }
   
   .headbar {
-    flex: 2;
+    flex: 0.8;
   }

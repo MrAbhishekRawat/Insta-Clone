@@ -1,0 +1,47 @@
+.feedpage{
+  width: 550px;
+  margin: 30px 40px 50px 40px;
+}
+
+.feed_header{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.fh_left{
+  display: flex;
+  align-items: center;
+  font-weight: bolder;
+  flex-direction: row;
+}
+
+.fh_left span{
+  color: grey;
+  font-size: 13px;
+  margin-left: 10px;
+}
+
+.feed_pic img{
+  width: 100%;
+  border-radius: 15px;
+  border-color: 0.6px solid rgba(128, 128, 128, 0.56);
+}
+
+.feed_footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.eachIcon{
+  padding: 7px;
+  font-size: 25px;
+}
+
+.footer_mainIcon:hover{
+   cursor: pointer;
+}
