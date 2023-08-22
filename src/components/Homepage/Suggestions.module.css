@@ -1,0 +1,44 @@
+.suggestions{
+    margin-top: 30px;
+    margin-right: 20px;
+}
+
+.suggestion_title{
+    color: gray;
+    font-weight: bold;
+}
+.sugestion_user_left{
+    display: flex;
+    align-items: center;
+}
+.userInfo{
+    display: flex;
+    flex-direction: column;
+}
+.relation{
+    color: gray;
+    font-size: 12px;
+}
+
+.suggestion_users{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.suggestion_users button{
+    color: rgb(62, 106, 187);
+    font-weight: bold;
+    background: 0;
+    border: 0;
+}
+
+.suggestion_users button:hover {
+   color: white;
+   cursor: pointer;
+}
+
+.avatar{
+    margin-right: 10px;
+}

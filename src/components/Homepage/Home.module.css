@@ -12,6 +12,10 @@
     flex: 0.2;
   }
   
-  .headbar {
-    flex: 0.8;
+  .centreBar {
+    flex: 0.6;
+  }
+
+  .rightbar{
+    flex: 0.2;
   }

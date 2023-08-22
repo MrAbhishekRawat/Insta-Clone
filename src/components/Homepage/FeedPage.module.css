@@ -26,8 +26,8 @@
 
 .feed_pic img{
   width: 100%;
-  border-radius: 15px;
-  border-color: 0.6px solid rgba(128, 128, 128, 0.56);
+  border-radius: 10px;
+  border: 0.6px solid rgba(128, 128, 128, 0.56);
 }
 
 .feed_footer{
