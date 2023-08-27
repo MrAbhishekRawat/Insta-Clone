@@ -17,6 +17,7 @@ function LoginForm() {
       const data = await logIn({ email, password });
       console.log("Login successful:", data);
       dispatch(loginUser(data))
+      
     } catch (error) {
       alert(error);
     }

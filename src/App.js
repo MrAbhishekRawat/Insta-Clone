@@ -6,6 +6,8 @@ import styles from './App.module.css'
 
 const App = () => {
   const user = useSelector((state) => state.user.user);
+   console.log(user); 
+   
 
   return (
     <div className={styles.app}>

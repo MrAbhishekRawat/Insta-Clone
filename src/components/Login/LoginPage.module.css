@@ -10,16 +10,20 @@
 }
 .login_left img{
   width: 400px;
+  margin-left: 200px;
 }
 .login_right{
   flex: 0.5;
+  margin-top: 50px;
 }
+
 .login_more{
   border: 1px solid grey;
   padding: 20px;
   margin-left: 30px;
   margin-right: 30px;
   text-align: center;
+  width: 400px;
 }
 .login_more span button{
   background: 0;
@@ -29,4 +33,22 @@
 }
 .login_more span button:hover{
   cursor: pointer;
+  color:  rgb(23, 96, 180);
+}
+
+.download {
+  display: flex;
+  margin-top: 50px;
+  margin-left: 45px;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.download img{
+  width: 150px;
+}
+
+.download p{
+  margin-right: 5px;
+  margin-left: 2px;
 }
